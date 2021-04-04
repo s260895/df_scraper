@@ -1,0 +1,4 @@
+selenium
+tbselenium
+pymongo
+bs4
