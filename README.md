@@ -2,7 +2,9 @@
 This code runs in linux ubuntu 20.04
 
 https://www.wikihow.com/Install-Ubuntu-on-VirtualBox
+
 make fullscreen
+
 https://shaadlife.com/make-ubuntu-full-screen-on-virtualbox/
 
 
