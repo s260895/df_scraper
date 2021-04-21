@@ -1,6 +1,11 @@
 # Setup 
 This code runs in linux ubuntu 20.04
 
+https://www.wikihow.com/Install-Ubuntu-on-VirtualBox
+make fullscreen
+https://shaadlife.com/make-ubuntu-full-screen-on-virtualbox/
+
+
 ### install python and pip
 https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
 
@@ -9,9 +14,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set
 Install geckodriver from https://github.com/mozilla/geckodriver/releases/
 make sure the geckodriver bin file is located in ```/usr/bin```
 ```bash
+$cd /path to geckodriver
 $sudo mv geckodriver /usr/bin/
 ```
-
 
 ### Configuring TOR
 
@@ -19,7 +24,8 @@ Download tor
 ```bash
 $ sudo apt install tor
 ```
-or download via their website
+AND download via their website.
+extract to ```/home/usr/```
 
 #### testing configuration
 
