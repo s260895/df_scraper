@@ -6,7 +6,8 @@ make fullscreen
 https://shaadlife.com/make-ubuntu-full-screen-on-virtualbox/
 
 
-### install python and pip
+### Install python and pip
+only follow step 1
 https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
 
 
@@ -24,7 +25,7 @@ Download tor
 ```bash
 $ sudo apt install tor
 ```
-AND download via their website.
+AND download via their website https://www.torproject.org/download/
 extract to ```/home/usr/```
 
 #### testing configuration
