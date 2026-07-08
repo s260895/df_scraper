@@ -1,0 +1,12 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8504:8501"
+
+  # One-off: run the loader tests inside the container:
+  #   docker compose --profile tools run --rm tests
+  tests:
+    build: .
+    profiles: ["tools"]
+    command: python tests/test_load.py
